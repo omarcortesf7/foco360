@@ -1,0 +1,7 @@
+FOCO KIDS - ranking compartido
+==============================
+Link para el grupo:  https://omicortes7.github.io/foco-kids/?g=sanblas
+(el codigo despues de ?g= es el nombre del grupo; cambialo para otro grupo)
+
+- index.html  : la app (ya configurada con tu Supabase).
+- supabase-setup.sql : ya ejecutado en Supabase (crea la tabla fk_best y la funcion fk_submit).
