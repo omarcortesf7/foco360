@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clasificación Cadete A</title>
+<style>
+:root{--bg:#f6f7f9;--fg:#14213d;--muted:#64708a;--panel:#fff;--line:#e1e5ec;--top:#dff3e4;--head:#1f3864;--gold:#e0a800}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1624;--fg:#e8ecf5;--muted:#93a0bb;--panel:#182136;--line:#2a3550;--top:#1d3a2b;--head:#2b4a85;--gold:#f0c14b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:24px max(16px,env(safe-area-inset-left)) 40px max(16px,env(safe-area-inset-right))}
+.wrap{max-width:42rem;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{margin:0;font-size:1.7rem;color:var(--fg)}
+.sub{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+.pod{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.pc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 8px;text-align:center;min-width:0}
+.pc.p1{background:color-mix(in srgb,#e0a800 22%,var(--panel));border-color:#e0a800}.pc.p2{background:color-mix(in srgb,#9aa3b2 24%,var(--panel));border-color:#9aa3b2}.pc.p3{background:color-mix(in srgb,#c47a3a 22%,var(--panel));border-color:#c47a3a}
+.pc .lb{font-size:.8rem;color:var(--muted)}
+.pc .nm{font-size:1.35rem;font-weight:700;margin:4px 0;overflow-wrap:anywhere}
+.pc .pt{font-size:.8rem;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h2{margin:0 0 4px;font-size:1.05rem}
+.note{margin:0 0 10px;color:var(--muted);font-size:.8rem}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-size:.75rem;color:var(--muted);font-weight:600;padding:6px 4px;border-bottom:1px solid var(--line);text-align:center}
+td{padding:9px 4px;text-align:center;border-bottom:1px solid var(--line)}
+th:nth-child(2),td:nth-child(2){text-align:left}
+tr.top td{background:var(--top)}
+tr.top td:nth-child(2),tr.top td:nth-child(6){font-weight:700}
+td.tot{font-weight:700}
+.key{display:flex;gap:8px;align-items:center;margin-top:10px;font-size:.8rem;color:var(--muted)}
+.sw{width:14px;height:14px;border-radius:3px;background:var(--top);border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <h1>Clasificación Cadete A</h1>
+    <p class="sub">Días ganados en dobles áreas y partidos. Actualizada hasta el <span id="hasta">—</span>.</p>
+  </div>
+  <div class="pod" id="pod"></div>
+  <div class="card">
+    <h2>Tabla completa</h2>
+    <p class="note">Un día cuenta 1 si tu equipo gana la doble área o el partido o los duelos de ese día, sin importar cuántas series ganes.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>#</th><th>Jugador</th><th>Dobles áreas</th><th>Partidos</th><th>Duelos</th><th>Total</th></tr></thead>
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+    <div class="key"><span class="sw"></span>Los 9 primeros</div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script>
+(function(){
+  var rows = (window.CLASIFICACION || []).slice().sort(function(a,b){return a.pos-b.pos;});
+  var pod = document.getElementById('pod');
+  rows.slice(0,3).forEach(function(r,i){
+    var d = document.createElement('div'); d.className = 'pc p'+(i+1);
+    var a = document.createElement('div'); a.className='lb'; a.textContent = (i+1)+'.º';
+    var b = document.createElement('div'); b.className='nm'; b.textContent = r.jugador;
+    var c = document.createElement('div'); c.className='pt'; c.textContent = r.total+' días ganados';
+    d.appendChild(a); d.appendChild(b); d.appendChild(c); pod.appendChild(d);
+  });
+  var body = document.getElementById('body');
+  rows.forEach(function(r){
+    var tr = document.createElement('tr'); if (r.pos<=9) tr.className='top';
+    [r.pos,r.jugador,r.dobles,r.partidos,r.duelos,r.total].forEach(function(v,i){
+      var td = document.createElement('td'); td.textContent = v; if(i===5) td.className='tot'; tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  });
+  if (rows[0] && rows[0].hasta){
+    var p = rows[0].hasta.split('-'); document.getElementById('hasta').textContent = (+p[2])+'/'+(+p[1]);
+  }
+})();
+</script>
+</body>
+</html>
