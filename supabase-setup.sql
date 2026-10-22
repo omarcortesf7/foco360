@@ -1,4 +1,4 @@
--- Foco Kids · ranking compartido por grupo
+-- Foco 360 · ranking compartido por grupo
 -- Pegar entero en Supabase > SQL Editor > Run. Se puede ejecutar más de una vez.
 
 create table if not exists public.fk_best (

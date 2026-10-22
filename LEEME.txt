@@ -1,6 +1,6 @@
-FOCO KIDS - ranking compartido
+FOCO 360 - ranking compartido
 ==============================
-Link para el grupo:  https://omarcortesf7.github.io/foco-kids/?g=febo
+Link para el grupo:  https://omarcortesf7.github.io/foco-360/?g=febo
 (el codigo despues de ?g= es el nombre del grupo; cambialo para otro grupo)
 
 - index.html  : la app (ya configurada con tu Supabase).
