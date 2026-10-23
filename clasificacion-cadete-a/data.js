@@ -146,11 +146,29 @@ window.CLASIFICACION = [
  },
  {
   "pos": 17,
+  "jugador": "Hector N.",
+  "dobles": 1,
+  "partidos": 1,
+  "duelos": 0,
+  "total": 2,
+  "hasta": "2026-10-22"
+ },
+ {
+  "pos": 18,
   "jugador": "Pau",
   "dobles": 1,
   "partidos": 1,
   "duelos": 0,
   "total": 2,
+  "hasta": "2026-10-22"
+ },
+ {
+  "pos": 19,
+  "jugador": "Hector F.",
+  "dobles": 0,
+  "partidos": 0,
+  "duelos": 0,
+  "total": 0,
   "hasta": "2026-10-22"
  }
 ];
