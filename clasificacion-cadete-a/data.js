@@ -3,11 +3,11 @@ window.CLASIFICACION = [
  {
   "pos": 1,
   "jugador": "Jairo",
-  "dobles": 7,
+  "dobles": 8,
   "partidos": 1,
   "duelos": 1,
-  "total": 9,
-  "hasta": "2026-10-22"
+  "total": 10,
+  "hasta": "2026-10-23"
  },
  {
   "pos": 2,
@@ -16,16 +16,16 @@ window.CLASIFICACION = [
   "partidos": 2,
   "duelos": 1,
   "total": 9,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 3,
   "jugador": "Adria",
-  "dobles": 4,
+  "dobles": 5,
   "partidos": 3,
   "duelos": 1,
-  "total": 8,
-  "hasta": "2026-10-22"
+  "total": 9,
+  "hasta": "2026-10-23"
  },
  {
   "pos": 4,
@@ -34,16 +34,16 @@ window.CLASIFICACION = [
   "partidos": 0,
   "duelos": 1,
   "total": 7,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 5,
   "jugador": "Leo",
-  "dobles": 2,
+  "dobles": 3,
   "partidos": 4,
   "duelos": 0,
-  "total": 6,
-  "hasta": "2026-10-22"
+  "total": 7,
+  "hasta": "2026-10-23"
  },
  {
   "pos": 6,
@@ -52,43 +52,43 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 1,
   "total": 6,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 7,
+  "jugador": "Ernest",
+  "dobles": 4,
+  "partidos": 1,
+  "duelos": 0,
+  "total": 5,
+  "hasta": "2026-10-23"
+ },
+ {
+  "pos": 8,
   "jugador": "Tono",
   "dobles": 4,
   "partidos": 0,
   "duelos": 1,
   "total": 5,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
-  "pos": 8,
+  "pos": 9,
   "jugador": "Carles",
   "dobles": 2,
   "partidos": 3,
   "duelos": 0,
   "total": 5,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
-  "pos": 9,
+  "pos": 10,
   "jugador": "Gabri",
   "dobles": 2,
   "partidos": 2,
   "duelos": 1,
   "total": 5,
-  "hasta": "2026-10-22"
- },
- {
-  "pos": 10,
-  "jugador": "Ernest",
-  "dobles": 3,
-  "partidos": 1,
-  "duelos": 0,
-  "total": 4,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 11,
@@ -97,7 +97,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 4,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 12,
@@ -106,7 +106,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 1,
   "total": 4,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 13,
@@ -115,25 +115,25 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 0,
   "total": 4,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 14,
+  "jugador": "Nestor",
+  "dobles": 1,
+  "partidos": 3,
+  "duelos": 0,
+  "total": 4,
+  "hasta": "2026-10-23"
+ },
+ {
+  "pos": 15,
   "jugador": "Izan",
   "dobles": 2,
   "partidos": 1,
   "duelos": 0,
   "total": 3,
-  "hasta": "2026-10-22"
- },
- {
-  "pos": 15,
-  "jugador": "Nestor",
-  "dobles": 0,
-  "partidos": 3,
-  "duelos": 0,
-  "total": 3,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 16,
@@ -142,7 +142,7 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 0,
   "total": 3,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 17,
@@ -151,7 +151,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 2,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 18,
@@ -160,7 +160,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 2,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  },
  {
   "pos": 19,
@@ -169,6 +169,6 @@ window.CLASIFICACION = [
   "partidos": 0,
   "duelos": 0,
   "total": 0,
-  "hasta": "2026-10-22"
+  "hasta": "2026-10-23"
  }
 ];
