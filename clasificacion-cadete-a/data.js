@@ -5,81 +5,81 @@ window.CLASIFICACION = [
   "jugador": "Jairo",
   "dobles": 9,
   "partidos": 2,
-  "duelos": 1,
-  "total": 12,
-  "hasta": "2026-10-30"
+  "duelos": 2,
+  "total": 13,
+  "hasta": "2026-11-03"
  },
  {
   "pos": 2,
+  "jugador": "Arnau",
+  "dobles": 6,
+  "partidos": 2,
+  "duelos": 2,
+  "total": 10,
+  "hasta": "2026-11-03"
+ },
+ {
+  "pos": 3,
   "jugador": "Adria",
   "dobles": 5,
   "partidos": 3,
   "duelos": 2,
   "total": 10,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
-  "pos": 3,
+  "pos": 4,
   "jugador": "Moha",
   "dobles": 7,
   "partidos": 0,
   "duelos": 2,
   "total": 9,
-  "hasta": "2026-10-30"
- },
- {
-  "pos": 4,
-  "jugador": "Arnau",
-  "dobles": 6,
-  "partidos": 2,
-  "duelos": 1,
-  "total": 9,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 5,
+  "jugador": "Manu",
+  "dobles": 2,
+  "partidos": 4,
+  "duelos": 3,
+  "total": 9,
+  "hasta": "2026-11-03"
+ },
+ {
+  "pos": 6,
+  "jugador": "Tono",
+  "dobles": 5,
+  "partidos": 1,
+  "duelos": 2,
+  "total": 8,
+  "hasta": "2026-11-03"
+ },
+ {
+  "pos": 7,
+  "jugador": "Ernest",
+  "dobles": 4,
+  "partidos": 2,
+  "duelos": 2,
+  "total": 8,
+  "hasta": "2026-11-03"
+ },
+ {
+  "pos": 8,
   "jugador": "Carles",
   "dobles": 3,
   "partidos": 4,
   "duelos": 1,
   "total": 8,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
-  "pos": 6,
+  "pos": 9,
   "jugador": "Leo",
   "dobles": 3,
   "partidos": 5,
   "duelos": 0,
   "total": 8,
-  "hasta": "2026-10-30"
- },
- {
-  "pos": 7,
-  "jugador": "Manu",
-  "dobles": 2,
-  "partidos": 4,
-  "duelos": 2,
-  "total": 8,
-  "hasta": "2026-10-30"
- },
- {
-  "pos": 8,
-  "jugador": "Tono",
-  "dobles": 5,
-  "partidos": 1,
-  "duelos": 1,
-  "total": 7,
-  "hasta": "2026-10-30"
- },
- {
-  "pos": 9,
-  "jugador": "Ernest",
-  "dobles": 4,
-  "partidos": 2,
-  "duelos": 1,
-  "total": 7,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 10,
@@ -88,25 +88,25 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 1,
   "total": 7,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 11,
+  "jugador": "Nestor",
+  "dobles": 2,
+  "partidos": 4,
+  "duelos": 1,
+  "total": 7,
+  "hasta": "2026-11-03"
+ },
+ {
+  "pos": 12,
   "jugador": "Abel",
   "dobles": 2,
   "partidos": 2,
   "duelos": 2,
   "total": 6,
-  "hasta": "2026-10-30"
- },
- {
-  "pos": 12,
-  "jugador": "Nestor",
-  "dobles": 2,
-  "partidos": 4,
-  "duelos": 0,
-  "total": 6,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 13,
@@ -115,7 +115,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 4,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 14,
@@ -124,7 +124,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 1,
   "total": 4,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 15,
@@ -133,25 +133,25 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 0,
   "total": 4,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 16,
   "jugador": "Pau",
   "dobles": 1,
   "partidos": 2,
-  "duelos": 0,
-  "total": 3,
-  "hasta": "2026-10-30"
+  "duelos": 1,
+  "total": 4,
+  "hasta": "2026-11-03"
  },
  {
   "pos": 17,
   "jugador": "Oscar",
   "dobles": 0,
   "partidos": 3,
-  "duelos": 0,
-  "total": 3,
-  "hasta": "2026-10-30"
+  "duelos": 1,
+  "total": 4,
+  "hasta": "2026-11-03"
  },
  {
   "pos": 18,
@@ -160,7 +160,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 2,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  },
  {
   "pos": 19,
@@ -169,6 +169,6 @@ window.CLASIFICACION = [
   "partidos": 0,
   "duelos": 0,
   "total": 0,
-  "hasta": "2026-10-30"
+  "hasta": "2026-11-03"
  }
 ];
