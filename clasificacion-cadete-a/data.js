@@ -20,6 +20,24 @@ window.CLASIFICACION = [
  },
  {
   "pos": 3,
+  "jugador": "Tono",
+  "dobles": 6,
+  "partidos": 2,
+  "duelos": 3,
+  "total": 11,
+  "hasta": "2026-11-10"
+ },
+ {
+  "pos": 4,
+  "jugador": "Moha",
+  "dobles": 7,
+  "partidos": 0,
+  "duelos": 3,
+  "total": 10,
+  "hasta": "2026-11-10"
+ },
+ {
+  "pos": 5,
   "jugador": "Arnau",
   "dobles": 6,
   "partidos": 2,
@@ -28,16 +46,7 @@ window.CLASIFICACION = [
   "hasta": "2026-11-10"
  },
  {
-  "pos": 4,
-  "jugador": "Tono",
-  "dobles": 6,
-  "partidos": 2,
-  "duelos": 2,
-  "total": 10,
-  "hasta": "2026-11-10"
- },
- {
-  "pos": 5,
+  "pos": 6,
   "jugador": "Manu",
   "dobles": 3,
   "partidos": 4,
@@ -46,30 +55,21 @@ window.CLASIFICACION = [
   "hasta": "2026-11-10"
  },
  {
-  "pos": 6,
-  "jugador": "Moha",
-  "dobles": 7,
-  "partidos": 0,
-  "duelos": 2,
-  "total": 9,
-  "hasta": "2026-11-10"
- },
- {
   "pos": 7,
-  "jugador": "Leo",
-  "dobles": 3,
-  "partidos": 6,
-  "duelos": 0,
+  "jugador": "Ernest",
+  "dobles": 4,
+  "partidos": 2,
+  "duelos": 3,
   "total": 9,
   "hasta": "2026-11-10"
  },
  {
   "pos": 8,
-  "jugador": "Ernest",
-  "dobles": 4,
-  "partidos": 2,
-  "duelos": 2,
-  "total": 8,
+  "jugador": "Leo",
+  "dobles": 3,
+  "partidos": 6,
+  "duelos": 0,
+  "total": 9,
   "hasta": "2026-11-10"
  },
  {
@@ -92,19 +92,19 @@ window.CLASIFICACION = [
  },
  {
   "pos": 11,
-  "jugador": "Abel",
+  "jugador": "Nestor",
   "dobles": 2,
-  "partidos": 3,
+  "partidos": 4,
   "duelos": 2,
-  "total": 7,
+  "total": 8,
   "hasta": "2026-11-10"
  },
  {
   "pos": 12,
-  "jugador": "Nestor",
+  "jugador": "Abel",
   "dobles": 2,
-  "partidos": 4,
-  "duelos": 1,
+  "partidos": 3,
+  "duelos": 2,
   "total": 7,
   "hasta": "2026-11-10"
  },
@@ -119,6 +119,15 @@ window.CLASIFICACION = [
  },
  {
   "pos": 14,
+  "jugador": "Oscar",
+  "dobles": 0,
+  "partidos": 3,
+  "duelos": 2,
+  "total": 5,
+  "hasta": "2026-11-10"
+ },
+ {
+  "pos": 15,
   "jugador": "Josep",
   "dobles": 3,
   "partidos": 1,
@@ -127,7 +136,7 @@ window.CLASIFICACION = [
   "hasta": "2026-11-10"
  },
  {
-  "pos": 15,
+  "pos": 16,
   "jugador": "Izan",
   "dobles": 2,
   "partidos": 1,
@@ -136,19 +145,10 @@ window.CLASIFICACION = [
   "hasta": "2026-11-10"
  },
  {
-  "pos": 16,
+  "pos": 17,
   "jugador": "Pau",
   "dobles": 1,
   "partidos": 2,
-  "duelos": 1,
-  "total": 4,
-  "hasta": "2026-11-10"
- },
- {
-  "pos": 17,
-  "jugador": "Oscar",
-  "dobles": 0,
-  "partidos": 3,
   "duelos": 1,
   "total": 4,
   "hasta": "2026-11-10"
