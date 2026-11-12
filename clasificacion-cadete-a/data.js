@@ -7,7 +7,7 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 2,
   "total": 15,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 2,
@@ -16,7 +16,7 @@ window.CLASIFICACION = [
   "partidos": 4,
   "duelos": 2,
   "total": 12,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 3,
@@ -25,7 +25,7 @@ window.CLASIFICACION = [
   "partidos": 2,
   "duelos": 2,
   "total": 10,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 4,
@@ -34,7 +34,7 @@ window.CLASIFICACION = [
   "partidos": 2,
   "duelos": 2,
   "total": 10,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 5,
@@ -43,7 +43,7 @@ window.CLASIFICACION = [
   "partidos": 4,
   "duelos": 3,
   "total": 10,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 6,
@@ -52,7 +52,7 @@ window.CLASIFICACION = [
   "partidos": 0,
   "duelos": 2,
   "total": 9,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 7,
@@ -61,7 +61,7 @@ window.CLASIFICACION = [
   "partidos": 6,
   "duelos": 0,
   "total": 9,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 8,
@@ -70,7 +70,7 @@ window.CLASIFICACION = [
   "partidos": 2,
   "duelos": 2,
   "total": 8,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 9,
@@ -79,7 +79,7 @@ window.CLASIFICACION = [
   "partidos": 4,
   "duelos": 1,
   "total": 8,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 10,
@@ -88,7 +88,7 @@ window.CLASIFICACION = [
   "partidos": 4,
   "duelos": 1,
   "total": 8,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 11,
@@ -97,7 +97,7 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 2,
   "total": 7,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 12,
@@ -106,7 +106,7 @@ window.CLASIFICACION = [
   "partidos": 4,
   "duelos": 1,
   "total": 7,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 13,
@@ -115,7 +115,7 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 0,
   "total": 5,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 14,
@@ -124,7 +124,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 4,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 15,
@@ -133,7 +133,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 1,
   "total": 4,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 16,
@@ -142,7 +142,7 @@ window.CLASIFICACION = [
   "partidos": 2,
   "duelos": 1,
   "total": 4,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 17,
@@ -151,7 +151,7 @@ window.CLASIFICACION = [
   "partidos": 3,
   "duelos": 1,
   "total": 4,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 18,
@@ -160,7 +160,7 @@ window.CLASIFICACION = [
   "partidos": 1,
   "duelos": 0,
   "total": 2,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  },
  {
   "pos": 19,
@@ -169,6 +169,6 @@ window.CLASIFICACION = [
   "partidos": 0,
   "duelos": 0,
   "total": 0,
-  "hasta": "2026-11-06"
+  "hasta": "2026-11-10"
  }
 ];
